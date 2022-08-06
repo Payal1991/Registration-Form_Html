@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h3>Html tutorial registration form</form></h3>
+    <form action="/action_page.php">
+        <label for="name"> Name:</label>
+
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+
+
+        <br>
+        <label for="email"> Email:</label>
+        <div>
+            <input type="email" name=" myEmail" id="email">
+            <!-- name se humara backend above tags ko pachanega-->
+        </div>
+        <br>
+        <label for="contact">Contact no.:</label>
+        <div>
+            <input type=" text" name=" myNumber" id="contact">
+        </div>
+        <br>
+        <label for="birth">D.O.B:</label>
+        <div>
+            <input type="date" name="myDate " id="birth">
+        </div>
+        <br>
+        <label for="gender">Gender:</label>
+        <div>
+            Male <input type="radio" name="myGender" id="gender"> Female <input type="radio" name="myGender"
+                id="gender">
+        </div>
+        <br>
+        <label for="course">Course: </label>
+        <div>
+            <select name="mycourse" id="course">
+
+
+                <option value="Course">Course</option>
+                </option>
+                <option value="BCA">BCA </option>
+                <option value="BBA">BBA </option>
+                <option value="B.TECH">B.TECH </option>
+                <option value="M.TECH"> M.TECH</option>
+
+            </select>
+        </div>
+        <br>
+        <label for=" sub"> Subject: </label>
+        <div>
+            <select name=" mysub" id="sub">
+                <option value=" subject">subject</option>
+                <option value="CSE"> CSE</option>
+                <option value=" IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value=" EEE">EEE</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now ">
+            <input type="reset" value="reset">
+        </div>
+
+    </form>
+</body>
+
+
+</html>
